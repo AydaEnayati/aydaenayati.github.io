@@ -1,0 +1,1147 @@
+.remove-padding {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.imgSizing {
+    height: 100vh;
+    z-index: -1;
+}
+
+.filter {
+    height: 100px;
+    background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+    top: 0;
+    position: absolute;
+    z-index: 0;
+}
+
+/*navigation is here$$$$$$$$$$$$$$*/
+.navigation {
+    width: 100%;
+    height: 48px;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+}
+
+.navigation p {
+    color: white;
+    font-family: serif;
+    margin-left: 30px;
+    line-height: 48px;
+    height: 48px;
+}
+
+
+.stanford {
+    position: absolute;
+    z-index: 1;
+    top: 30vh;
+    color: white;
+    font-weight: 400;
+    font-family: serif;
+    transition: all 300ms ease 0s;
+    text-align: center;
+    /*why it deos not move to the center?*/
+}
+
+.adjust1 {
+    height: 45px;
+    background-color: #b1040e;
+    margin-top: -45px;
+    line-height: 45px;
+}
+
+.adjust1 a {
+    text-decoration: none;
+    font-size: larger;
+    font-weight: 600;
+    text-shadow: 1px 1px 3px black;
+}
+
+.adjust2 {
+    height: 100vh;
+    /*transition: ;*/
+}
+
+.adjust3 {
+    background-color: #f4f4f4;
+}
+
+.adjust5 {
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 10px 0px, rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
+}
+
+.adjust6 {
+    margin-top: 30px;
+    border-top: 1px black solid;
+    border-bottom: 1px black solid;
+}
+
+
+.modify1 {
+    margin-top: 25px;
+    font-weight: 900;
+}
+
+.modify2 {
+    text-align: center;
+    margin-top: 25px;
+    font-weight: 300;
+}
+
+.modify3 {
+    background-color: #b1040e;
+    height: 50px;
+    line-height: 50px;
+    box-shadow: 1px 1px 4px black;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.modify3:hover {
+    background-color: #8b0103;
+}
+
+.modify4 {
+    color: #8b0103;
+    font-weight: 600;
+}
+
+.modify5 {
+    font-size: 20px;
+    font-weight: 700;
+    color: black;
+    text-decoration: none;
+}
+
+.modify5:hover {
+    color: rgb(0, 84, 143);
+}
+
+.modify6 {
+    z-index: 9;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+    height: 100px;
+    margin-top: -100px;
+}
+
+.modify7 {
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.modify8 {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.modify9 {
+    color: #0693e3;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.move{
+    transition: margin-left 500ms ease 0s;
+}
+
+.modify9:hover {
+    color: rgb(0, 85, 144);
+}
+.modify9:hover .move{
+   margin-left: 10px;
+}
+
+.modify11 {
+    text-align: center;
+}
+
+.modify12 {
+    font-weight: 900;
+    text-align: center;
+}
+
+.modify14 {
+    font-family: serif;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.modify15 {
+    font-family: serif;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: -20px;
+}
+
+.modify16 {
+    text-align: center;
+    color: #544948;
+    cursor: pointer;
+    height: 40px;
+    line-height: 40px;
+    border: 1px black solid;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 10px 0px, rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
+}
+
+.modify16:hover {
+    color: #b1040e;
+    border: 1px #b1040e solid;
+}
+
+.costume-modal {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+
+.costume-modal li {
+    margin-left: 20px;
+}
+
+
+.margin1 {
+    margin-top: 30px;
+}
+
+.finito {
+    list-style-type: none;
+}
+
+.finito li {
+    margin-top: 15px;
+}
+
+.finito a {
+    color: black;
+    text-decoration: none;
+}
+
+.finito a:hover {
+    color: rgb(0, 85, 144);
+    text-decoration-line: underline;
+}
+
+
+
+.footer ul {
+    list-style-type: none;
+}
+
+.footer li {
+    margin-left: 15px;
+}
+
+.footer a {
+    display: block;
+    color: white;
+    text-decoration: none;
+}
+
+.hidden {
+    display: none;
+}
+
+
+.blur {
+    height: 100vh;
+    position: fixed;
+    z-index: 5;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(3px);
+}
+
+
+.search-modal {
+    width: 100%;
+    height: 230px;
+    position: fixed;
+    top: 102px;
+    z-index: 6;
+}
+
+.change-color{
+    background-color: white;
+}
+
+
+.icon1 {
+    margin-right: -15px;
+    color: grey;
+    position: absolute;
+    line-height: 50px;
+    margin-top: 20px;
+}
+
+.search-input,
+.search-click {
+    height: 50px;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.search-click {
+    background-color: #b1040e;
+    transition: all 300ms ease 0s;
+    color: white;
+}
+
+
+
+.navigation button:hover {
+    background-color: #8b0103;
+}
+
+
+.blur-in {
+    position: absolute;
+    z-index: 5;
+    backdrop-filter: blur(8px);
+    padding: 0;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+}
+
+.fade-in {
+    opacity: 0;
+    transition: opacity 250ms ease-in;
+}
+
+.fade-in.appear {
+    opacity: 1;
+}
+
+.margin3 {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.text1,
+.text2,
+.text3 {
+    text-shadow: rgb(0, 0, 0) 1px 1px 6px;
+
+}
+
+.text1 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+.text3 {
+    text-align: center;
+}
+
+
+.school-list {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    flex-wrap: wrap;
+}
+
+.school-list a {
+    display: block;
+    color: #0693e3;
+    text-decoration: none;
+}
+
+.school-list a::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 3px;
+    margin-top: 2px;
+    background-color: #0693e3;
+    transform: scaleX(0);
+    transform-origin: center;
+    transition: all 200ms linear 0s;
+}
+
+.school-list a:hover::after {
+    transform: scaleX(1);
+}
+
+.social {
+    cursor: pointer;
+}
+
+.facebook:hover {
+    color: rgb(59, 87, 156);
+}
+
+.twitter:hover {
+    color: rgb(29, 160, 241);
+}
+
+.instagram:hover {
+    color: rgb(215, 54, 118);
+}
+
+.linkedin:hover {
+    color: rgb(0, 108, 184);
+}
+
+.youtube:hover {
+    color: rgb(205, 32, 31);
+}
+
+.apple:hover {
+    color: gray;
+}
+
+
+
+
+@media all and (max-width:1024px) {
+
+    /*navigation is here$$$$$$$$$$$$$$&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&*/
+    .navigation {
+        background-color: #b1040e;
+        transition: all 300ms ease 0s;
+        display: flex;
+    }
+
+    .hideNav {
+        display: none;
+    }
+
+    .navigation ul {
+        display: none;
+
+    }
+
+    .navigation button {
+        background-color: transparent;
+        color: white;
+        height: 48px;
+        line-height: 48px;
+    }
+
+
+
+
+    .menu {
+        right: 0;
+        width: 100px;
+        position: absolute;
+    }
+
+    .search {
+        right: 100px;
+        width: 90px;
+        position: absolute;
+    }
+
+    .mobile-nav {
+        height: 80vh;
+        background-color: #f4f4f4;
+        position: fixed;
+        top: 48px;
+        z-index: 10;
+    }
+
+    .nav1 {
+        background-color: white;
+        display: flex;
+        flex-wrap: wrap;
+        list-style-type: none;
+        padding-left: 0;
+    }
+
+    .nav1 li {
+        height: 15vh;
+        border: 1px rgb(192, 192, 192) solid;
+        line-height: 15vh;
+        cursor: pointer;
+        text-align: center;
+    }
+
+    .nav1 a {
+        text-decoration: none;
+        color: black;
+    }
+
+    .nav1 li:hover {
+        background-color: #f4f4f4;
+    }
+
+    .nav1 a:hover {
+        color: #b1040e;
+    }
+
+    .nav2 {
+        text-align: center;
+        font-weight: 600;
+    }
+
+    .nav3 {
+        list-style-type: none;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding-left: 0;
+
+    }
+
+    .nav3 li:hover {
+        background-color: white;
+    }
+
+    .nav3 a {
+        text-decoration: none;
+        color: black;
+    }
+
+    .nav3 a:hover {
+        color: #b1040e;
+    }
+
+
+}
+
+
+
+
+
+@media all and (max-width:576px) {
+    .modify1 {
+        font-size: 28px;
+    }
+
+    .modify2 {
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .stanford {
+        font-size: 60px;
+    }
+
+    .modify10 {
+        font-size: 16px;
+        font-weight: 700;
+        text-align: center;
+    }
+
+    .modify12 {
+        font-size: 20px;
+    }
+
+    .footer {
+        height: 350px;
+        background-color: #8b0103;
+        bottom: 0;
+    }
+
+    .modify13 {
+        padding-left: 0;
+    }
+
+
+
+
+
+    .logo1 {
+        font-size: 20px;
+        font-family: serif;
+        font-weight: 400;
+    }
+
+    .mobile-nav {
+        height: 80vh;
+    }
+
+    .nav1 {
+        height: 60vh;
+        padding-left: 0;
+    }
+
+    .nav1 li {
+        width: 50%;
+    }
+
+    .nav3 {
+        list-style-type: none;
+        height: 20vh;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding-left: 0;
+    }
+
+    .nav3 li {
+        margin-left: 10px;
+        height: 8vh;
+    }
+
+    .nav3 a {
+        font-size: 12px;
+        height: 8vh;
+        line-height: 10vh;
+    }
+
+
+    .image-sizing {
+        width: 150px;
+        margin-top: 20px;
+    }
+
+    .image-sizing2 {
+        height: 140vh;
+    }
+
+    .blur-sizing {
+        height: 140vh;
+    }
+
+    .text1 {
+        font-size: 20px;
+        width: 70%;
+    }
+
+    .text2 {
+        font-size: 18px;
+        font-weight: 700;
+    }
+
+    .text3 {
+        text-align: center;
+    }
+
+    .school-list {
+        flex-direction: column;
+    }
+
+    .school-list li::after{
+        content: "";
+        width: 200px;
+        display: block;
+        border-bottom: 1px solid hsla(0,0%,80%,.5);
+    }
+    .school-list li:last-child::after{
+        border-bottom: 0;
+    }
+
+    .school-list li {
+        justify-content: center;
+        height: 50px;
+    }
+
+    .school-list a {
+        font-size: 20px;
+        line-height: 50px;
+        text-align: center;
+    }
+
+    .costume1{
+        background-color: #544948;
+        box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 10px 0px, rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
+    }
+
+    .costume2{
+        font-size: 12px;
+        text-align: center;
+        margin-top: 50px;
+    }
+    .costume3{
+        font-size: 20px;
+        font-weight: 800;
+        text-align: center;
+        margin-top: -20px;
+    }
+
+
+}
+
+@media all and (min-width:577px) and (max-width:767px) {
+    .modify1 {
+        font-size: 35px;
+    }
+
+    .modify2 {
+        font-size: 25px;
+    }
+
+    .modify3 {
+        width: 50%;
+    }
+
+    .stanford {
+        font-size: 76px;
+    }
+
+    .modify10 {
+        font-size: 19px;
+        font-weight: 700;
+    }
+
+    .modify12 {
+        font-size: 25px;
+    }
+
+    .footer {
+        height: 350px;
+        background-color: #8b0103;
+    }
+
+
+
+
+    .logo2 {
+        font-size: 22px;
+        font-family: serif;
+        font-weight: 600;
+    }
+
+
+    .mobile-nav {
+        height: 50vh;
+    }
+
+    .nav1 {
+        height: 30vh;
+        padding-left: 0;
+    }
+
+    .nav1 li {
+        width: 25%;
+    }
+
+    .nav1 a {
+        font-size: 20px
+    }
+
+    .nav3 {
+        height: 20vh;
+        padding-left: 0;
+    }
+
+    .nav3 li {
+        margin-left: 10px;
+        height: 40px;
+    }
+
+    .nav3 a {
+        height: 40px;
+        line-height: 40px;
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .school-list li {
+        padding-right: 20px;
+        padding-left: 20px;
+        border-left: 2px black solid;
+        height: 20px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .school-list a {
+        font-size: 18px;
+    }
+
+    .image-sizing {
+        width: 170px;
+        margin-top: 20px;
+    }
+
+    .image-sizing2 {
+        height: 140vh;
+    }
+
+    .blur-sizing {
+        height: 140vh;
+    }
+
+    .text1 {
+        font-size: 25px;
+    }
+
+    .text2 {
+        font-size: 20px;
+        font-weight: 700;
+    }
+}
+
+@media all and (min-width:768px) and (max-width:1023px) {
+    .modify1 {
+        font-size: 40px;
+    }
+
+    .modify2 {
+        font-size: 36px;
+    }
+
+    .modify3 {
+        width: 50%;
+    }
+
+    .stanford {
+        font-size: 107px;
+    }
+
+    .modify10 {
+        font-size: 22px;
+        font-weight: 700;
+    }
+
+    .modify12 {
+        font-size: 30px;
+
+    }
+
+    .footer {
+        height: 160px;
+        background-color: #8b0103;
+    }
+
+    .margin2 {
+        margin-top: 30px;
+    }
+
+
+
+
+
+
+    .logo2 {
+        font-size: 24px;
+        font-family: serif;
+        font-weight: 600;
+    }
+
+    .mobile-nav {
+        height: 50vh;
+    }
+
+    .nav1 {
+        height: 30vh;
+        padding-left: 0;
+    }
+
+    .nav1 li {
+        width: 25%;
+        height: 15vh;
+        line-height: 15vh;
+    }
+
+    .nav1 a {
+        font-size: 22px;
+    }
+
+    .nav3 {
+        height: 20vh;
+        padding-left: 0;
+
+    }
+
+    .nav3 li {
+        margin-left: 10px;
+        height: 40px;
+    }
+
+    .nav3 a {
+        height: 40px;
+        line-height: 40px;
+        padding-left: 16px;
+        padding-right: 16px;
+        font-size: 18px;
+    }
+
+    .school-list li {
+        padding-right: 20px;
+        padding-left: 20px;
+        border-left: 2px black solid;
+        height: 30px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .school-list a {
+        font-size: 20px;
+    }
+
+    .image-sizing2 {
+        height: 140vh;
+    }
+
+    .blur-sizing {
+        height: 140vh;
+    }
+
+    .image-sizing {
+        width: 200px;
+        margin-top: 30px;
+    }
+
+    .text1 {
+        font-size: 28px;
+    }
+
+    .text2 {
+        font-size: 20px;
+        font-weight: 700;
+    }
+
+}
+
+
+@media all and (min-width:1024px) {
+    .modify1 {
+        font-size: 50px;
+    }
+
+    .modify2 {
+        font-size: 34px;
+    }
+
+    .modify3 {
+        width: 40%;
+        font-size: 20px;
+        /*font size does not change*/
+    }
+
+    .stanford {
+        font-size: 134px;
+    }
+
+    .modify10 {
+        font-size: 25px;
+        font-weight: 700;
+    }
+
+    .modify12 {
+        font-size: 35px;
+    }
+
+    .footer {
+        height: 160px;
+        background-color: #8b0103;
+    }
+
+    .margin2 {
+        margin-top: 30px;
+    }
+
+
+    .navigation {
+        display: flex;
+    }
+
+    .logo2 {
+        width: 38%;
+        color: white;
+        font-weight: 600;
+        font-size: 28px;
+        font-family: serif;
+        margin-left: 30px;
+        line-height: 48px;
+        height: 48px;
+    }
+
+    .navigation li:first-child {
+        color: white;
+        height: 48px;
+        line-height: 48px;
+        font-weight: 600;
+    }
+
+    .navigation ul {
+        display: flex;
+        height: 48px;
+        justify-content: center;
+        list-style-type: none;
+    }
+
+    .navigation li {
+        margin-right: 15px;
+        height: 48px;
+    }
+
+    .navigation a {
+        display: block;
+        height: 48px;
+        line-height: 48px;
+        padding: 0 10px;
+        text-decoration: none;
+        color: white;
+        font-weight: 400;
+        transition: all 300ms ease 0s;
+    }
+
+    .nav1-link:hover {
+        color: rgb(255, 255, 255);
+    }
+
+    .nav1-link::after {
+        content: "";
+        display: block;
+        width: 100%;
+        height: 2px;
+        margin-top: -40px;
+        background-color: white;
+        transform: scaleX(0);
+        transform-origin: center;
+        transition: all 200ms linear 0s;
+    }
+
+    .nav1-link:hover::after {
+        transform: scaleX(1);
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .search {
+        background-color: transparent;
+        color: white;
+        height: 48px;
+        line-height: 48px;
+
+    }
+
+
+    .nav-scrolled {
+        background-color: #b1040e;
+    }
+
+    .nav-scrolled li:hover {
+        background-color: #8b0103;
+    }
+
+
+
+    .navigation2 {
+        width: 100%;
+        height: 54px;
+        position: fixed;
+        top: 48px;
+        z-index: 10;
+    }
+
+    .navigation2 ul {
+        display: flex;
+        height: 54px;
+        justify-content: center;
+        list-style-type: none;
+    }
+
+    .navigation2 li {
+        margin-right: 15px;
+        height: 54px;
+    }
+
+    .navigation2 a {
+        display: block;
+        height: 54px;
+        line-height: 54px;
+        padding: 0 10px;
+        text-decoration: none;
+        font-weight: 600;
+        font-size: 20px;
+        transition: all 300ms ease 0s;
+    }
+
+    .nav2-link {
+        color: white;
+    }
+
+    .nav2-link::after {
+        content: "";
+        display: block;
+        width: 100%;
+        height: 3px;
+        margin-top: -8px;
+        background-color: white;
+        transform: scaleX(0);
+        transform-origin: center;
+        transition: all 200ms linear 0s;
+    }
+
+    .nav2-link:hover::after {
+        transform: scaleX(1);
+    }
+
+
+    .nav-scrolled2 {
+        background-color: white;
+        box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 10px 0px, rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
+    }
+
+
+    .nav-scrolled2 a {
+        color: black;
+    }
+
+    .nav-scrolled2 a::after {
+        content: "";
+        display: block;
+        width: 100%;
+        height: 3px;
+        margin-top: -8px;
+        background-color: #8b0103;
+        transform: scaleX(0);
+        transform-origin: center;
+        transition: all 200ms linear 0s;
+    }
+
+    .nav-scrolled2 a:hover::after {
+        transform: scaleX(1);
+    }
+
+
+
+    .school-list li {
+        padding-right: 20px;
+        padding-left: 20px;
+        border-left: 2px black solid;
+        height: 30px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .school-list a {
+        font-size: 20px;
+    }
+
+    .image-sizing {
+        width: 200px;
+        margin-top: 80px;
+    }
+
+    .text1 {
+        font-size: 30px;
+        width: 60%;
+    }
+
+    .text2 {
+        font-size: 21px;
+        font-weight: 700;
+    }
+
+    .text3 {
+        font-size: 18px;
+    }
+
+    .blur-sizing {
+        height: 132vh;
+    }
+    .image-sizing2{
+        height: 132vh;
+    }
+
+
+
+
+}
